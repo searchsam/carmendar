@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: FullCalendar WP
+Plugin Name: Carmendar
 Description: Calendario FullCalendar con eventos dinámicos desde AJAX y shortcode.
 Version: 1.0
 Author: Samuel Gutierrez
