@@ -1,2 +1,3 @@
-# carmel-hours
-Calendar to show the fairs of the Carmelite saints.
+# Carmendar
+
+Liturgical calendar and Carmelite saints.
