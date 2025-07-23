@@ -1,14 +1,29 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var calendarEl = document.getElementById('calendar');
+  let calendarEl = document.getElementById('fcw-calendar');
   if (!calendarEl) return;
 
-  var calendar = new FullCalendar.Calendar(calendarEl, {
+  let events = carmendar_ajax_events.ajax_url + '?action=fc_events';
+  console.log(events);
+  let calendar = new FullCalendar.Calendar(calendarEl, {
     locale: 'es',
+    themeSystem: 'bootstrap5',
+    // height: '100%',
+    headerToolbar: {
+      start: 'prev',
+      center: 'title',
+      end: 'next'
+    },
+    footerToolbar: {
+      start: 'prev',
+      center: '',
+      end: 'next'
+    },
     initialView: 'dayGridMonth',
-    events: fcw_ajax.ajax_url + '?action=fc_events',
+    events: events,
     eventClick: function (info) {
       if (info.event.url) {
         window.location.href = info.event.url;
+        // window.open(info.event.url, '_blank');
         info.jsEvent.preventDefault();
       }
     }
