@@ -1,88 +1,64 @@
 <?php
+/*
+Plugin Name: Carmandar
+Description: Muestra un calendario litúrgico con eventos personalizados.
+Version: 1.0
+Author: Samuel Gutierrez
+*/
 
-/**
- * Plugin Name: Carmendar
- * Description: Muestra un calendario litúrgico con eventos personalizados.
- * Version: 1.0
- * Author: Samuel Gutierrez
- */
-
-if (!defined('ABSPATH')) exit;
-
-// Enqueue scripts and styles
-function carmendar_enqueue_assets()
-{
-    wp_enqueue_script('fcw-rrule', 'https://cdn.jsdelivr.net/npm/rrule@2.7.1/dist/es5/rrule.min.js', [], null, true);
-    wp_enqueue_script('fcw-fullcalendar', 'https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js', ['fcw-rrule'], null, true);
-    wp_enqueue_script('fcw-rrule-plugin', 'https://cdn.jsdelivr.net/npm/@fullcalendar/rrule@6.1.10/index.global.min.js', ['fcw-fullcalendar'], null, true);
-    wp_enqueue_script('fcw-init', plugins_url('/js/fullcalendar-init.js', __FILE__), ['fcw-rrule-plugin'], null, true);
-
-    wp_localize_script('fcw-init', 'carmendar_ajax_events', [
-        'ajax_url' => admin_url('admin-ajax.php')
-    ]);
-}
-add_action('wp_enqueue_scripts', 'carmendar_enqueue_assets');
-
-function carmendar_shortcode()
-{
-    return '<div id="fcw-calendar"></div>';
-}
-add_shortcode('carmendar', 'carmendar_shortcode');
-
-
-require_once plugin_dir_path(__FILE__) . 'includes/events.php';
-function carmendar_ajax_events()
-{
-    header('Content-Type: application/json');
-
-    $events = carmendar_get_events();
-    echo json_encode($events);
-    wp_die();
-}
-add_action('wp_ajax_fc_events', 'carmendar_ajax_events');
-add_action('wp_ajax_nopriv_fc_events', 'carmendar_ajax_events');
-
-function carmendar_record_events()
-{
-    register_post_type('fc_event', [
+add_action('init', function () {
+    register_post_type('liturgical_event', [
         'labels' => [
-            'name' => 'Eventos',
-            'singular_name' => 'Evento',
+            'name' => 'Eventos Litúrgicos',
+            'singular_name' => 'Evento Litúrgico',
         ],
         'public' => true,
-        'menu_position' => 5,
-        'menu_icon' => 'dashicons-calendar',
-        'supports' => ['title'],
-        'has_archive' => false,
-        'show_in_rest' => true
+        'has_archive' => true,
+        'rewrite' => ['slug' => 'carmendar'],
+        'supports' => ['title', 'editor', 'custom-fields'],
     ]);
-}
-add_action('init', 'carmendar_record_events');
+});
 
-function carmendar_add_event_fields()
-{
-    add_meta_box('carmendar_event_field', 'Detalles del evento', 'carmendar_event_fields_html', 'fc_event', 'normal', 'default');
-}
-add_action('add_meta_boxes', 'carmendar_add_event_fields');
+add_action('add_meta_boxes', function () {
+    add_meta_box('info_evento', 'Información Litúrgica', function ($post) {
+        $fecha = get_post_meta($post->ID, 'event_date', true);
+        echo '<label>Fecha del evento:</label><br>';
+        echo '<input type="date" name="event_date" value="' . esc_attr($fecha) . '" style="width:100%;">';
+    }, 'liturgical_event');
+});
 
-function carmendar_event_fields_html($post)
-{
-    $date = get_post_meta($post->ID, '_fcw_date', true);
-    $url = get_post_meta($post->ID, '_fcw_url', true);
-?>
-    <label>Fecha:</label><br>
-    <input type="date" name="fcw_date" value="<?php echo esc_attr($date); ?>"><br><br>
+add_action('save_post', function ($post_id) {
+    if (array_key_exists('event_date', $_POST)) {
+        update_post_meta($post_id, 'event_date', $_POST['event_date']);
+    }
+});
 
-    <label>URL:</label><br>
-    <input type="text" name="fcw_url" value="<?php echo esc_attr($url); ?>"><br><br>
-<?php
-}
+require_once plugin_dir_path(__FILE__) . 'includes/events.php';
+add_action('wp_ajax_carmandar_events', function () {
+    header('Content-Type: application/json');
 
-function carmendar_save_event_fields($post_id)
-{
-    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) return;
-    if (isset($_POST['fcw_title'])) update_post_meta($post_id, '_fcw_title', sanitize_text_field($_POST['fcw_title']));
-    if (isset($_POST['fcw_date'])) update_post_meta($post_id, '_fcw_date', sanitize_text_field($_POST['fcw_date']));
-    if (isset($_POST['fcw_url'])) update_post_meta($post_id, '_fcw_url', esc_url_raw($_POST['fcw_url']));
-}
-add_action('save_post', 'carmendar_save_event_fields');
+    $eventos = carmendar_get_events();
+    echo json_encode($eventos);
+    wp_die();
+});
+
+add_action('wp_ajax_nopriv_carmendar_events', function () {
+    header('Content-Type: application/json');
+
+    $eventos = carmendar_get_events();
+    echo json_encode($eventos);
+    wp_die();
+});
+
+add_action('wp_enqueue_scripts', function () {
+    wp_enqueue_script('fullcalendar-js', 'https://cdn.jsdelivr.net/npm/fullcalendar@6.1.18/index.global.min.js', [], null, true);
+    wp_enqueue_script('custom-calendar', plugin_dir_url(__FILE__) . 'js/calendar.js', ['fullcalendar-js'], null, true);
+
+    wp_localize_script('custom-calendar', 'carmendar_ajax', [
+        'ajax_url' => admin_url('admin-ajax.php')
+    ]);
+});
+
+add_shortcode('carmendar', function () {
+    return '<div id="liturgical-calendar" style="max-width: 900px; margin: 0 auto;"></div>';
+});
