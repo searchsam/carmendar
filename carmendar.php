@@ -1,10 +1,11 @@
 <?php
-/*
-Plugin Name: Carmendar
-Description: Calendario FullCalendar con eventos dinámicos desde AJAX y shortcode.
-Version: 1.0
-Author: Samuel Gutierrez
-*/
+
+/**
+ * Plugin Name: Carmendar
+ * Description: Calendario FullCalendar con eventos dinámicos desde AJAX y shortcode.
+ * Version: 1.0
+ * Author: Samuel Gutierrez
+ */
 
 if (!defined('ABSPATH')) exit;
 
@@ -27,7 +28,7 @@ function fcw_calendar_shortcode()
 {
     return '<div id="calendar"></div>';
 }
-add_shortcode('fullcalendar', 'fcw_calendar_shortcode');
+add_shortcode('carmendar', 'fcw_calendar_shortcode');
 
 require_once plugin_dir_path(__FILE__) . 'includes/events.php';
 
