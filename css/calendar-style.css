@@ -7,6 +7,11 @@ a.fc-daygrid-day-number {
     text-decoration: none;
 }
 
+a.fc-col-header-cell-cushion:hover,
+a.fc-daygrid-day-number:hover {
+    color: #443d3d;
+}
+
 a.fc-col-header-cell-cushion {
     text-transform: capitalize;
 }
@@ -29,4 +34,9 @@ a.fc-col-header-cell-cushion {
 
 .fc .fc-button {
     border: 2px solid #8e4214;
+}
+
+a,
+.page-title {
+    color: #443d3d;
 }
