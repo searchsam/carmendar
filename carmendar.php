@@ -16,15 +16,33 @@ add_action("wp_enqueue_scripts", function () {
     wp_localize_script("custom-calendar", "carmendar_events", [
         "ajax_url" => admin_url("admin-ajax.php")
     ]);
+
+    wp_enqueue_style("fullcalendar-css", plugin_dir_url(__FILE__) . "css/calendar-style.css", [], "1.0", "all");
 });
 
 require_once plugin_dir_path(__FILE__) . "includes/events.php";
 add_action("wp_ajax_carmendar_events", function () {
-    header("Content-Type: application/json");
+    $json_path = plugin_dir_path(__FILE__) . "includes/events.json";
 
-    $events = get_events();
-    echo json_encode($events);
-    wp_die();
+    if (file_exists($json_path)) {
+        header("Content-Type: application/json");
+        echo file_get_contents($json_path);
+        exit;
+    }
+});
+
+register_activation_hook(__FILE__, function () {
+    if (!wp_next_scheduled("calendar_events")) {
+        wp_schedule_event(time(), "daily", "calendar_events");
+    }
+});
+
+register_deactivation_hook(__FILE__, function () {
+    wp_clear_scheduled_hook("calendar_events");
+});
+
+add_action("calendar_events", function () {
+    get_events();
 });
 
 add_shortcode("carmendar", function () {
