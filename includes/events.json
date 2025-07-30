@@ -1,0 +1,1262 @@
+[
+    {
+        "title": "Miércoles SEÑOR del Tiempo De Navidad",
+        "start": "2025-01-01",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/ene\/01\/"
+    },
+    {
+        "title": "Jueves I del Tiempo De Navidad",
+        "start": "2025-01-02",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/ene\/02\/"
+    },
+    {
+        "title": "Sábado I del Tiempo De Navidad",
+        "start": "2025-01-04",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/ene\/04\/"
+    },
+    {
+        "title": "Martes II del Tiempo Ordinario",
+        "start": "2025-01-21",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/ene\/21\/"
+    },
+    {
+        "title": "Miércoles II del Tiempo Ordinario",
+        "start": "2025-01-22",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/ene\/22\/"
+    },
+    {
+        "title": "Jueves II del Tiempo Ordinario",
+        "start": "2025-01-23",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/ene\/23\/"
+    },
+    {
+        "title": "Viernes II del Tiempo Ordinario",
+        "start": "2025-01-24",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/ene\/24\/"
+    },
+    {
+        "title": "Sábado II del Tiempo Ordinario",
+        "start": "2025-01-25",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/ene\/25\/"
+    },
+    {
+        "title": "Domingo III del Tiempo Ordinario",
+        "start": "2025-01-26",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/ene\/26\/"
+    },
+    {
+        "title": "Martes III del Tiempo Ordinario",
+        "start": "2025-01-28",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/ene\/28\/"
+    },
+    {
+        "title": "Jueves V del Tiempo Ordinario",
+        "start": "2025-02-13",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/13\/"
+    },
+    {
+        "title": "Sábado V del Tiempo Ordinario",
+        "start": "2025-02-15",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/15\/"
+    },
+    {
+        "title": "Domingo VI del Tiempo Ordinario",
+        "start": "2025-02-16",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/16\/"
+    },
+    {
+        "title": "Lunes VI del Tiempo Ordinario",
+        "start": "2025-02-17",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/17\/"
+    },
+    {
+        "title": "Martes VI del Tiempo Ordinario",
+        "start": "2025-02-18",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/18\/"
+    },
+    {
+        "title": "Miércoles VI del Tiempo Ordinario",
+        "start": "2025-02-19",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/19\/"
+    },
+    {
+        "title": "Jueves VI del Tiempo Ordinario",
+        "start": "2025-02-20",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/20\/"
+    },
+    {
+        "title": "Viernes VI del Tiempo Ordinario",
+        "start": "2025-02-21",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/21\/"
+    },
+    {
+        "title": "Sábado VI del Tiempo Ordinario",
+        "start": "2025-02-22",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/22\/"
+    },
+    {
+        "title": "Domingo VII del Tiempo Ordinario",
+        "start": "2025-02-23",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/23\/"
+    },
+    {
+        "title": "Lunes VII del Tiempo Ordinario",
+        "start": "2025-02-24",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/24\/"
+    },
+    {
+        "title": "Martes VII del Tiempo Ordinario",
+        "start": "2025-02-25",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/25\/"
+    },
+    {
+        "title": "Miércoles VII del Tiempo Ordinario",
+        "start": "2025-02-26",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/26\/"
+    },
+    {
+        "title": "Jueves VII del Tiempo Ordinario",
+        "start": "2025-02-27",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/27\/"
+    },
+    {
+        "title": "Viernes VII del Tiempo Ordinario",
+        "start": "2025-02-28",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/feb\/28\/"
+    },
+    {
+        "title": "Sábado VII del Tiempo Ordinario",
+        "start": "2025-03-01",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/01\/"
+    },
+    {
+        "title": "Domingo VIII del Tiempo Ordinario",
+        "start": "2025-03-02",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/02\/"
+    },
+    {
+        "title": "Lunes VIII del Tiempo Ordinario",
+        "start": "2025-03-03",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/03\/"
+    },
+    {
+        "title": "Martes VIII del Tiempo Ordinario",
+        "start": "2025-03-04",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/04\/"
+    },
+    {
+        "title": "Miércoles CENIZA del Tiempo De Cuaresma",
+        "start": "2025-03-05",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/05\/"
+    },
+    {
+        "title": "Jueves CENIZA del Tiempo De Cuaresma",
+        "start": "2025-03-06",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/06\/"
+    },
+    {
+        "title": "Viernes CENIZA del Tiempo De Cuaresma",
+        "start": "2025-03-07",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/07\/"
+    },
+    {
+        "title": "Sábado CENIZA del Tiempo De Cuaresma",
+        "start": "2025-03-08",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/08\/"
+    },
+    {
+        "title": "Domingo I del Tiempo De Cuaresma",
+        "start": "2025-03-09",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/09\/"
+    },
+    {
+        "title": "Lunes I del Tiempo De Cuaresma",
+        "start": "2025-03-10",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/10\/"
+    },
+    {
+        "title": "Martes I del Tiempo De Cuaresma",
+        "start": "2025-03-11",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/11\/"
+    },
+    {
+        "title": "Miércoles I del Tiempo De Cuaresma",
+        "start": "2025-03-12",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/12\/"
+    },
+    {
+        "title": "Jueves I del Tiempo De Cuaresma",
+        "start": "2025-03-13",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/13\/"
+    },
+    {
+        "title": "Viernes I del Tiempo De Cuaresma",
+        "start": "2025-03-14",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/14\/"
+    },
+    {
+        "title": "Sábado I del Tiempo De Cuaresma",
+        "start": "2025-03-15",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/15\/"
+    },
+    {
+        "title": "Domingo II del Tiempo De Cuaresma",
+        "start": "2025-03-16",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/16\/"
+    },
+    {
+        "title": "Lunes II del Tiempo De Cuaresma",
+        "start": "2025-03-17",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/17\/"
+    },
+    {
+        "title": "Martes II del Tiempo De Cuaresma",
+        "start": "2025-03-18",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/18\/"
+    },
+    {
+        "title": "Miércoles II del Tiempo De Cuaresma",
+        "start": "2025-03-19",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/19\/"
+    },
+    {
+        "title": "Jueves II del Tiempo De Cuaresma",
+        "start": "2025-03-20",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/20\/"
+    },
+    {
+        "title": "Viernes II del Tiempo De Cuaresma",
+        "start": "2025-03-21",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/21\/"
+    },
+    {
+        "title": "Sábado II del Tiempo De Cuaresma",
+        "start": "2025-03-22",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/22\/"
+    },
+    {
+        "title": "Domingo III del Tiempo De Cuaresma",
+        "start": "2025-03-23",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/23\/"
+    },
+    {
+        "title": "Lunes III del Tiempo De Cuaresma",
+        "start": "2025-03-24",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/24\/"
+    },
+    {
+        "title": "Martes III del Tiempo De Cuaresma",
+        "start": "2025-03-25",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/25\/"
+    },
+    {
+        "title": "Miércoles III del Tiempo De Cuaresma",
+        "start": "2025-03-26",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/26\/"
+    },
+    {
+        "title": "Jueves III del Tiempo De Cuaresma",
+        "start": "2025-03-27",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/27\/"
+    },
+    {
+        "title": "Viernes III del Tiempo De Cuaresma",
+        "start": "2025-03-28",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/28\/"
+    },
+    {
+        "title": "Sábado III del Tiempo De Cuaresma",
+        "start": "2025-03-29",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/29\/"
+    },
+    {
+        "title": "Domingo IV del Tiempo De Cuaresma",
+        "start": "2025-03-30",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/30\/"
+    },
+    {
+        "title": "Lunes IV del Tiempo De Cuaresma",
+        "start": "2025-03-31",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/mar\/31\/"
+    },
+    {
+        "title": "Martes IV del Tiempo De Cuaresma",
+        "start": "2025-04-01",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/01\/"
+    },
+    {
+        "title": "Miércoles IV del Tiempo De Cuaresma",
+        "start": "2025-04-02",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/02\/"
+    },
+    {
+        "title": "Jueves IV del Tiempo De Cuaresma",
+        "start": "2025-04-03",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/03\/"
+    },
+    {
+        "title": "Viernes IV del Tiempo De Cuaresma",
+        "start": "2025-04-04",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/04\/"
+    },
+    {
+        "title": "Sábado IV del Tiempo De Cuaresma",
+        "start": "2025-04-05",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/05\/"
+    },
+    {
+        "title": "Domingo V del Tiempo De Cuaresma",
+        "start": "2025-04-06",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/06\/"
+    },
+    {
+        "title": "Lunes V del Tiempo De Cuaresma",
+        "start": "2025-04-07",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/07\/"
+    },
+    {
+        "title": "Martes V del Tiempo De Cuaresma",
+        "start": "2025-04-08",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/08\/"
+    },
+    {
+        "title": "Miércoles V del Tiempo De Cuaresma",
+        "start": "2025-04-09",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/09\/"
+    },
+    {
+        "title": "Jueves V del Tiempo De Cuaresma",
+        "start": "2025-04-10",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/10\/"
+    },
+    {
+        "title": "Viernes V del Tiempo De Cuaresma",
+        "start": "2025-04-11",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/11\/"
+    },
+    {
+        "title": "Sábado V del Tiempo De Cuaresma",
+        "start": "2025-04-12",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/12\/"
+    },
+    {
+        "title": "Domingo RAMOS del Tiempo De Cuaresma",
+        "start": "2025-04-13",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/13\/"
+    },
+    {
+        "title": "Lunes SANTO del Tiempo De Cuaresma",
+        "start": "2025-04-14",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/14\/"
+    },
+    {
+        "title": "Martes SANTO del Tiempo De Cuaresma",
+        "start": "2025-04-15",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/15\/"
+    },
+    {
+        "title": "Miércoles SANTO del Tiempo De Cuaresma",
+        "start": "2025-04-16",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/16\/"
+    },
+    {
+        "title": "Jueves SANTO del Tiempo De Cuaresma",
+        "start": "2025-04-17",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/17\/"
+    },
+    {
+        "title": "Viernes SEÑOR del Tiempo De Cuaresma",
+        "start": "2025-04-18",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/18\/"
+    },
+    {
+        "title": "Triduo SANTO del Tiempo De Cuaresma",
+        "start": "2025-04-19",
+        "color": "#572364",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/19\/"
+    },
+    {
+        "title": "Domingo SEÑOR del Tiempo Pascual",
+        "start": "2025-04-20",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/20\/"
+    },
+    {
+        "title": "Lunes PASCUA del Tiempo Pascual",
+        "start": "2025-04-21",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/21\/"
+    },
+    {
+        "title": "Martes PASCUA del Tiempo Pascual",
+        "start": "2025-04-22",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/22\/"
+    },
+    {
+        "title": "Miércoles PASCUA del Tiempo Pascual",
+        "start": "2025-04-23",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/23\/"
+    },
+    {
+        "title": "Jueves PASCUA del Tiempo Pascual",
+        "start": "2025-04-24",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/24\/"
+    },
+    {
+        "title": "Viernes PASCUA del Tiempo Pascual",
+        "start": "2025-04-25",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/25\/"
+    },
+    {
+        "title": "Sábado PASCUA del Tiempo Pascual",
+        "start": "2025-04-26",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/26\/"
+    },
+    {
+        "title": "Domingo PASCUA del Tiempo Pascual",
+        "start": "2025-04-27",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/27\/"
+    },
+    {
+        "title": "Lunes II del Tiempo Pascual",
+        "start": "2025-04-28",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/28\/"
+    },
+    {
+        "title": "Martes II del Tiempo Pascual",
+        "start": "2025-04-29",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/29\/"
+    },
+    {
+        "title": "Miércoles II del Tiempo Pascual",
+        "start": "2025-04-30",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/abr\/30\/"
+    },
+    {
+        "title": " II del Tiempo Pascual",
+        "start": "2025-05-01",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/01\/"
+    },
+    {
+        "title": "Viernes II del Tiempo Pascual",
+        "start": "2025-05-02",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/02\/"
+    },
+    {
+        "title": " II del Tiempo Pascual",
+        "start": "2025-05-03",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/03\/"
+    },
+    {
+        "title": "Domingo III del Tiempo Pascual",
+        "start": "2025-05-04",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/04\/"
+    },
+    {
+        "title": "Lunes III del Tiempo Pascual",
+        "start": "2025-05-05",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/05\/"
+    },
+    {
+        "title": "Martes III del Tiempo Pascual",
+        "start": "2025-05-06",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/06\/"
+    },
+    {
+        "title": " III del Tiempo Pascual",
+        "start": "2025-05-07",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/07\/"
+    },
+    {
+        "title": " III del Tiempo Pascual",
+        "start": "2025-05-08",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/08\/"
+    },
+    {
+        "title": "Viernes III del Tiempo Pascual",
+        "start": "2025-05-09",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/09\/"
+    },
+    {
+        "title": "Sábado III del Tiempo Pascual",
+        "start": "2025-05-10",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/10\/"
+    },
+    {
+        "title": "Domingo IV del Tiempo Pascual",
+        "start": "2025-05-11",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/11\/"
+    },
+    {
+        "title": "Lunes IV del Tiempo Pascual",
+        "start": "2025-05-12",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/12\/"
+    },
+    {
+        "title": "Martes IV del Tiempo Pascual",
+        "start": "2025-05-13",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/13\/"
+    },
+    {
+        "title": "Miércoles IV del Tiempo Pascual",
+        "start": "2025-05-14",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/14\/"
+    },
+    {
+        "title": "Jueves IV del Tiempo Pascual",
+        "start": "2025-05-15",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/15\/"
+    },
+    {
+        "title": "Viernes IV del Tiempo Pascual",
+        "start": "2025-05-16",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/16\/"
+    },
+    {
+        "title": "Sábado IV del Tiempo Pascual",
+        "start": "2025-05-17",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/17\/"
+    },
+    {
+        "title": "Domingo V del Tiempo Pascual",
+        "start": "2025-05-18",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/18\/"
+    },
+    {
+        "title": "Lunes V del Tiempo Pascual",
+        "start": "2025-05-19",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/19\/"
+    },
+    {
+        "title": "Martes V del Tiempo Pascual",
+        "start": "2025-05-20",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/20\/"
+    },
+    {
+        "title": "Miércoles V del Tiempo Pascual",
+        "start": "2025-05-21",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/21\/"
+    },
+    {
+        "title": "Jueves V del Tiempo Pascual",
+        "start": "2025-05-22",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/22\/"
+    },
+    {
+        "title": "Viernes V del Tiempo Pascual",
+        "start": "2025-05-23",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/23\/"
+    },
+    {
+        "title": "Sábado V del Tiempo Pascual",
+        "start": "2025-05-24",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/24\/"
+    },
+    {
+        "title": "Domingo VI del Tiempo Pascual",
+        "start": "2025-05-25",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/25\/"
+    },
+    {
+        "title": "Lunes VI del Tiempo Pascual",
+        "start": "2025-05-26",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/26\/"
+    },
+    {
+        "title": "Martes VI del Tiempo Pascual",
+        "start": "2025-05-27",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/27\/"
+    },
+    {
+        "title": "Miércoles VI del Tiempo Pascual",
+        "start": "2025-05-28",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/28\/"
+    },
+    {
+        "title": "Jueves VI del Tiempo Pascual",
+        "start": "2025-05-29",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/29\/"
+    },
+    {
+        "title": "Viernes VI del Tiempo Pascual",
+        "start": "2025-05-30",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/30\/"
+    },
+    {
+        "title": "Sábado VI del Tiempo Pascual",
+        "start": "2025-05-31",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/may\/31\/"
+    },
+    {
+        "title": "Domingo SEÑOR del Tiempo Pascual",
+        "start": "2025-06-01",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/01\/"
+    },
+    {
+        "title": "Lunes VII del Tiempo Pascual",
+        "start": "2025-06-02",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/02\/"
+    },
+    {
+        "title": "Martes VII del Tiempo Pascual",
+        "start": "2025-06-03",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/03\/"
+    },
+    {
+        "title": "Miércoles VII del Tiempo Pascual",
+        "start": "2025-06-04",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/04\/"
+    },
+    {
+        "title": "Jueves VII del Tiempo Pascual",
+        "start": "2025-06-05",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/05\/"
+    },
+    {
+        "title": "Viernes VII del Tiempo Pascual",
+        "start": "2025-06-06",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/06\/"
+    },
+    {
+        "title": "Sábado VII del Tiempo Pascual",
+        "start": "2025-06-07",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/07\/"
+    },
+    {
+        "title": "Domingo PENTECOSTÉS del Tiempo Pascual",
+        "start": "2025-06-08",
+        "color": "#ffd700",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/08\/"
+    },
+    {
+        "title": " X del Tiempo Ordinario",
+        "start": "2025-06-09",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/09\/"
+    },
+    {
+        "title": "Martes X del Tiempo Ordinario",
+        "start": "2025-06-10",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/10\/"
+    },
+    {
+        "title": "Miércoles X del Tiempo Ordinario",
+        "start": "2025-06-11",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/11\/"
+    },
+    {
+        "title": "Jueves X del Tiempo Ordinario",
+        "start": "2025-06-12",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/12\/"
+    },
+    {
+        "title": "Viernes X del Tiempo Ordinario",
+        "start": "2025-06-13",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/13\/"
+    },
+    {
+        "title": "Sábado X del Tiempo Ordinario",
+        "start": "2025-06-14",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/14\/"
+    },
+    {
+        "title": "Domingo TRINIDAD del Tiempo Ordinario",
+        "start": "2025-06-15",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/15\/"
+    },
+    {
+        "title": "Lunes XI del Tiempo Ordinario",
+        "start": "2025-06-16",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/16\/"
+    },
+    {
+        "title": "Martes XI del Tiempo Ordinario",
+        "start": "2025-06-17",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/17\/"
+    },
+    {
+        "title": "Miércoles XI del Tiempo Ordinario",
+        "start": "2025-06-18",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/18\/"
+    },
+    {
+        "title": "Jueves XI del Tiempo Ordinario",
+        "start": "2025-06-19",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/19\/"
+    },
+    {
+        "title": "Viernes XI del Tiempo Ordinario",
+        "start": "2025-06-20",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/20\/"
+    },
+    {
+        "title": "Sábado XI del Tiempo Ordinario",
+        "start": "2025-06-21",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/21\/"
+    },
+    {
+        "title": "Domingo CHRISTI del Tiempo Ordinario",
+        "start": "2025-06-22",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/22\/"
+    },
+    {
+        "title": "Lunes XII del Tiempo Ordinario",
+        "start": "2025-06-23",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/23\/"
+    },
+    {
+        "title": "Martes XII del Tiempo Ordinario",
+        "start": "2025-06-24",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/24\/"
+    },
+    {
+        "title": "Miércoles XII del Tiempo Ordinario",
+        "start": "2025-06-25",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/25\/"
+    },
+    {
+        "title": "Jueves XII del Tiempo Ordinario",
+        "start": "2025-06-26",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/26\/"
+    },
+    {
+        "title": "Viernes XII del Tiempo Ordinario",
+        "start": "2025-06-27",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/27\/"
+    },
+    {
+        "title": "Sábado XII del Tiempo Ordinario",
+        "start": "2025-06-28",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/28\/"
+    },
+    {
+        "title": "Domingo XIII del Tiempo Ordinario",
+        "start": "2025-06-29",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/29\/"
+    },
+    {
+        "title": "Lunes XIII del Tiempo Ordinario",
+        "start": "2025-06-30",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jun\/30\/"
+    },
+    {
+        "title": "Martes XIII del Tiempo Ordinario",
+        "start": "2025-07-01",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/01\/"
+    },
+    {
+        "title": "Miércoles XIII del Tiempo Ordinario",
+        "start": "2025-07-02",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/02\/"
+    },
+    {
+        "title": "Jueves XIII del Tiempo Ordinario",
+        "start": "2025-07-03",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/03\/"
+    },
+    {
+        "title": "Viernes XIII del Tiempo Ordinario",
+        "start": "2025-07-04",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/04\/"
+    },
+    {
+        "title": "Sábado XIII del Tiempo Ordinario",
+        "start": "2025-07-05",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/05\/"
+    },
+    {
+        "title": "Domingo XIV del Tiempo Ordinario",
+        "start": "2025-07-06",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/06\/"
+    },
+    {
+        "title": "Lunes XIV del Tiempo Ordinario",
+        "start": "2025-07-07",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/07\/"
+    },
+    {
+        "title": "Martes XIV del Tiempo Ordinario",
+        "start": "2025-07-08",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/08\/"
+    },
+    {
+        "title": " XIV del Tiempo Ordinario",
+        "start": "2025-07-09",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/09\/"
+    },
+    {
+        "title": "Jueves XIV del Tiempo Ordinario",
+        "start": "2025-07-10",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/10\/"
+    },
+    {
+        "title": "Viernes XIV del Tiempo Ordinario",
+        "start": "2025-07-11",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/11\/"
+    },
+    {
+        "title": "Sábado XIV del Tiempo Ordinario",
+        "start": "2025-07-12",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/12\/"
+    },
+    {
+        "title": "Domingo XV del Tiempo Ordinario",
+        "start": "2025-07-13",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/13\/"
+    },
+    {
+        "title": "Lunes XV del Tiempo Ordinario",
+        "start": "2025-07-14",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/14\/"
+    },
+    {
+        "title": "Martes XV del Tiempo Ordinario",
+        "start": "2025-07-15",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/15\/"
+    },
+    {
+        "title": "Miércoles XV del Tiempo Ordinario",
+        "start": "2025-07-16",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/16\/"
+    },
+    {
+        "title": "Jueves XV del Tiempo Ordinario",
+        "start": "2025-07-17",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/17\/"
+    },
+    {
+        "title": "Viernes XV del Tiempo Ordinario",
+        "start": "2025-07-18",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/18\/"
+    },
+    {
+        "title": "Sábado XV del Tiempo Ordinario",
+        "start": "2025-07-19",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/19\/"
+    },
+    {
+        "title": "Domingo XVI del Tiempo Ordinario",
+        "start": "2025-07-20",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/20\/"
+    },
+    {
+        "title": "Lunes XVI del Tiempo Ordinario",
+        "start": "2025-07-21",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/21\/"
+    },
+    {
+        "title": "Martes XIV del Tiempo Ordinario",
+        "start": "2025-07-22",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/22\/"
+    },
+    {
+        "title": "Miércoles XVI del Tiempo Ordinario",
+        "start": "2025-07-23",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/23\/"
+    },
+    {
+        "title": "Jueves XVI del Tiempo Ordinario",
+        "start": "2025-07-24",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/24\/"
+    },
+    {
+        "title": "Viernes XVI del Tiempo Ordinario",
+        "start": "2025-07-25",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/25\/"
+    },
+    {
+        "title": "Sábado XVI del Tiempo Ordinario",
+        "start": "2025-07-26",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/26\/"
+    },
+    {
+        "title": "Domingo XVII del Tiempo Ordinario",
+        "start": "2025-07-27",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/27\/"
+    },
+    {
+        "title": "Lunes XVII del Tiempo Ordinario",
+        "start": "2025-07-28",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/28\/"
+    },
+    {
+        "title": "Martes XVII del Tiempo Ordinario",
+        "start": "2025-07-29",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/29\/"
+    },
+    {
+        "title": "Miércoles XVII del Tiempo Ordinario",
+        "start": "2025-07-30",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/30\/"
+    },
+    {
+        "title": "Jueves XVII del Tiempo Ordinario",
+        "start": "2025-07-31",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/jul\/31\/"
+    },
+    {
+        "title": "Viernes XVII del Tiempo Ordinario",
+        "start": "2025-08-01",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/ago\/01\/"
+    },
+    {
+        "title": "Sábado XVII del Tiempo Ordinario",
+        "start": "2025-08-02",
+        "color": "#008f39",
+        "display": "list-item",
+        "url": "https:\/\/liturgiadelashoras.github.io\/sync\/2025\/ago\/02\/"
+    }
+]
