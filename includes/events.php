@@ -28,7 +28,7 @@ function scrap_title($url)
     $tags = $html->find("strong");
 
     foreach ($tags as $tag) {
-        $texts[] = trim($tag->plaintext);
+        $texts[] = $tag->plaintext;
     }
 
     $html->clear();
@@ -70,8 +70,9 @@ function get_title($texts)
     $date = explode(" ", $texts[1]);
     $day = trim($date[0]);
     $week = trim(end($date));
+    $title = ucwords(strtolower($day), ".-/ ") . " " . $week . " del " . ucwords(strtolower(trim($texts[0])), ".-/ ");
 
-    return ucwords(strtolower($day), ".-/ ") . " " . $week . " del " . ucwords(strtolower(trim($texts[0])), ".-/ ");
+    return html_entity_decode($title, ENT_QUOTES | ENT_HTML5, 'UTF-8');
 }
 
 function get_color($event)
@@ -112,6 +113,8 @@ function get_event_format($name, $date, $url, $color)
 
 function get_events()
 {
+    date_default_timezone_set("America/Managua");
+
     $events = [];
     $start = new DateTime("2025-01-01");
     $end = (clone $start)->modify("+1 Years");
@@ -148,5 +151,14 @@ function get_events()
         $start->modify("+1 Days");
     }
 
-    return $events;
+    // Write JSON to file
+    header('Content-Type: text/html; charset=utf-8');
+    $json = json_encode($events, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+    $file = plugin_dir_path(__FILE__) . "events.json";
+
+    if (file_put_contents($file, $json) !== false) {
+        echo "Data has been written to $file.";
+    } else {
+        echo "Error occurred while writing to $file.";
+    }
 }
