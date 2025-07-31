@@ -13,6 +13,10 @@ add_action("wp_enqueue_scripts", function () {
     wp_enqueue_script("fullcalendar-rrule-plugin", "https://cdn.jsdelivr.net/npm/@fullcalendar/rrule@6.1.18/index.global.min.js", ["fullcalendar-js"], null, true);
     wp_enqueue_script("custom-calendar", plugin_dir_url(__FILE__) . "js/calendar.js", ["fullcalendar-rrule-plugin"], null, true);
     wp_enqueue_style("fullcalendar-css", plugin_dir_url(__FILE__) . "css/calendar-style.css", [], "1.0", "all");
+
+    wp_localize_script("custom-calendar", "carmendar_events", [
+        "rest_url" => site_url("/wp-json/carmendar/v1/events/")
+    ]);
 });
 
 add_action("rest_api_init", function () {

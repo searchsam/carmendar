@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       end: "next"
     },
     dayMaxEvents: true,
-    events: "/wp-json/carmendar/v1/events/",
+    events: carmendar_events.rest_url + "?action=carmendar_events",
     height: "auto"
   });
 
