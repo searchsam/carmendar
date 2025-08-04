@@ -2,13 +2,11 @@
     text-transform: capitalize !important;
 }
 
-a.fc-col-header-cell-cushion,
-a.fc-daygrid-day-number {
+a.fc-col-header-cell-cushion {
     text-decoration: none;
 }
 
-a.fc-col-header-cell-cushion:hover,
-a.fc-daygrid-day-number:hover {
+a.fc-col-header-cell-cushion:hover {
     color: #443d3d;
 }
 

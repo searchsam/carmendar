@@ -12,18 +12,19 @@ add_action("wp_enqueue_scripts", function () {
     wp_enqueue_script("fullcalendar-js", "https://cdn.jsdelivr.net/npm/fullcalendar@6.1.18/index.global.min.js", ["fullcalendar-rrule"], null, true);
     wp_enqueue_script("fullcalendar-rrule-plugin", "https://cdn.jsdelivr.net/npm/@fullcalendar/rrule@6.1.18/index.global.min.js", ["fullcalendar-js"], null, true);
     wp_enqueue_script("custom-calendar", plugin_dir_url(__FILE__) . "js/calendar.js", ["fullcalendar-rrule-plugin"], null, true);
-    wp_enqueue_style("fullcalendar-css", plugin_dir_url(__FILE__) . "css/calendar-style.css", [], "1.0", "all");
+    wp_enqueue_style("custom-css", plugin_dir_url(__FILE__) . "css/calendar-style.css", [], "1.0", "all");
 
     wp_localize_script("custom-calendar", "carmendar_events", [
-        "rest_url" => site_url("/wp-json/carmendar/v1/events/")
+        "rest_url_events" => site_url("/wp-json/carmendar/v1/events/"),
+        "rest_url_links" => site_url("/wp-json/carmendar/v1/links/")
     ]);
 });
 
 add_action("rest_api_init", function () {
-    register_rest_route("carmendar/v1", "/events/", [
+    register_rest_route("carmendar/v1", "/links/", [
         "methods"  => "GET",
         "callback" => function () {
-            $json_path = plugin_dir_path(__FILE__) . "includes/events.json";
+            $json_path = plugin_dir_path(__FILE__) . "includes/links.json";
             if (file_exists($json_path)) {
                 $contenido = file_get_contents($json_path);
                 return rest_ensure_response(json_decode($contenido));
@@ -33,21 +34,6 @@ add_action("rest_api_init", function () {
         },
         'permission_callback' => '__return_true'
     ]);
-});
-
-register_activation_hook(__FILE__, function () {
-    if (!wp_next_scheduled("calendar_events")) {
-        wp_schedule_event(time(), "daily", "calendar_events");
-    }
-});
-
-register_deactivation_hook(__FILE__, function () {
-    wp_clear_scheduled_hook("calendar_events");
-});
-
-add_action("calendar_events", function () {
-    require_once plugin_dir_path(__FILE__) . "includes/events.php";
-    get_events();
 });
 
 add_shortcode("carmendar", function () {

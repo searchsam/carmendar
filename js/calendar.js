@@ -1,9 +1,18 @@
-document.addEventListener("DOMContentLoaded", function () {
-  var calendarEl = document.getElementById("liturgical-calendar");
+document.addEventListener("DOMContentLoaded", async function () {
+  let calendarEl = document.getElementById("liturgical-calendar");
+
   if (!calendarEl) return;
 
+  const response = await fetch(carmendar_events.rest_url_links);
+
+  if (!response.ok) {
+    const text = await response.text();
+    console.error("Error en la respuesta:", text);
+  }
+
+  const links = await response.json();
+
   let calendar = new FullCalendar.Calendar(calendarEl, {
-    navLinks: false,
     initialView: "dayGridMonth",
     locale: "es",
     headerToolbar: {
@@ -11,8 +20,11 @@ document.addEventListener("DOMContentLoaded", function () {
       center: "title",
       end: "next"
     },
+    dateClick: function (info) {
+      const date = info.dateStr;
+      window.location.assign(links[date]);
+    },
     dayMaxEvents: true,
-    events: carmendar_events.rest_url + "?action=carmendar_events",
     height: "auto"
   });
 
